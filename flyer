@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 2 Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+
+            .title {color: chocolate;}
+            body, html{animation: colorchange 3s infinite
+            alternate;}
+            @keyframes colorchange{0%{background-color: bisque;}
+        100%{background-color: burlywood;}}
+            img {border: 5px solid #b19050}
+            #info-list {color: rgb(167, 121, 65);}
+            #info-list {font-family: 'Courier New', Courier, monospace;}
+            .info {font: italic;}
+            .-source {color: black;}
+            .-source {font-family: "Bitcount Grid Single", system-ui;} 
+            table, th, td {
+            border: 1px solid rgb(136, 80, 8);}
+            /* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(247, 156, 20);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 4, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 0, 0);
+}
+.table{color: rgb(146, 91, 8);}
+        </style>
+    </head>
+    <body>
+<h1 class="title">watch documentary</h1>
+<h4> <a class="-source" href="index.html"> home</a> </h4>
+<div class="table">
+<table>
+    <thead>
+      <tr>
+        <th>time </th>
+        <th>location </th>
+      </tr>
+    </thead> 
+    <tbody>
+      <tr>
+        <td>10:00pm</td>
+        <td>central park</td>
+        </tr>
+        <tr>
+          <td>9:00pm </td>
+          <td> tribeca </td>
+        </tr>
+        <tr>
+          <td>8:00pm </td>
+          <td>upper west side</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<span id="info-list">
+<h2 >whats included</h2>
+<ul>
+<li > learn about squirrles habitat </li>
+<li > listen to squirrles communicate </li>
+<li >feed local squirrles</li>  
+</ul> 
+</span>   
+<img src="https://www.pbs.org/wgbh/nova/media/images/iStock-473012660.width-2500.jpg" width="500">
+</body>
+</html>
