@@ -1,32 +1,102 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] border:, margin:, and padding: 
-[  ] Three Images
+[ x ] <div> and <span>
+[ x ] border:, margin:, and padding: 
+[ x ] Three Images
 
 Select TWO Additional Features to Add  
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Animation
 [ no ] Feature 4 - Linear Gradient
-[ no ] Feature 5 - Use a .Gif
-[ no ] Feature 6 - Unique Border Styles
+[yes ] Feature 5 - Use a .Gif
+[yes ] Feature 6 - Unique Border Styles
 -->
 
 
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 2 Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+        <style>
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+            .title {color: chocolate;}
+            body, html{animation: colorchange 3s infinite
+            alternate;}
+            @keyframes colorchange{0%{background-color: bisque;}
+        100%{background-color: burlywood;}}
+            img {border: 5px solid #b19050}
+            #funfacts {color: rgb(167, 121, 65);}
+            #funfacts {font-family: 'Courier New', Courier, monospace;}
+            #communication {color: rgb(228, 130, 65);}
+            #communication {font-family: 'Courier New', Courier, monospace;}
+            .info {font: italic;}
+            .-source {color: black;}
+            .-source {font-family: "Bitcount Grid Single", system-ui;} 
+            table, th, td {
+            border: 1px solid rgb(136, 80, 8);}
+            /* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
 
-  </style>
-</head>
-<body>
+/* visited link */
+a:visited {
+  color: rgb(247, 156, 20);
+}
 
- 
+/* mouse over link */
+a:hover {
+  color: rgb(0, 4, 255);
+}
 
+/* selected link */
+a:active {
+  color: rgb(255, 0, 0);
+}
+        </style>
+    </head>
+    <body>
+<h1 class="title">squirrles</h1>
+<h4> <a class="-source" href="flyer.html"> flyer </a>  </h4>
+<img src=https://georgiawildlife.com/sites/default/files/inline-images/Gray%20squirrel%20%28Terry%20W.%20Johnson%29.jpg width="400" >
+<h2 id="funfacts">fun facts</h2>
+<ul>
+<li class="info" id="funfacts"> squirrles are small </li>
+<li class="info" id="funfacts"> squirrles eat acorns </li>
+<li class="info"id="funfacts">Squirrels' front teeth never stop growing and need to be constantly gnawed <br> to prevent them from becoming too long</li>  
+</ul>    
+<img src="https://www.pbs.org/wgbh/nova/media/images/iStock-473012660.width-2500.jpg" width="500">
+<h2 id="communication"> communication </h2>
+<p class="info"id="communication">Squirrels communicate using vocalizations, such as barks, chattering, and screams, along with body language.</p>
+<img src="https://static.wixstatic.com/media/29b35c_5b72750255dd4f048a48bbf4ae4ecb45~mv2_d_3672_4896_s_4_2.jpg/v1/fill/w_466,h_622,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/29b35c_5b72750255dd4f048a48bbf4ae4ecb45~mv2_d_3672_4896_s_4_2.jpg" width="300">
+<table>
+    <thead>
+      <tr>
+        <th>traits</th>
+        <th>color </th>
+      </tr>
+    </thead> 
+    <tbody>
+      <tr>
+        <td>small</td>
+        <td>typically brown and white</td>
+        </tr>
+        <tr>
+          <td>long tail</td>
+          <td>black and brown with some white</td>
+        </tr>
+        <tr>
+          <td>small eyes</td>
+          <td>black and pea sized</td>
+        </tr>
+    </tbody>
+  </table>
+<h4>  <a class="-source" href="https://en.wikipedia.org/wiki/Squirrel" </a>-source</h4>
+<h4>  <a class="-source" href="https://blog.nwf.org/2015/01/10-nutty-facts-to-make-you-appreciate-squirrels/" </a> -source </h4>
 </body>
 </html>
